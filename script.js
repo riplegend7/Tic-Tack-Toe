@@ -62,6 +62,7 @@ function checkWinner(){
     }
     if(roundwon){
         statusText.textContent = `${currentPlayer} wins!`;
+        alert(`${currentPlayer} wins!`);
         running = false;
     }
     else if(!options.includes("")){
